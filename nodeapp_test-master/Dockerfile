@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR C:\Users\Admin\Desktop\prsentation\nodeapp_test-master
+WORKDIR nodeapp_test-master/Dockerfile
 
 COPY package.json ./
 
