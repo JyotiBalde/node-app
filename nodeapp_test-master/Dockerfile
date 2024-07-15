@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR nodeapp_test-master/Dockerfile
+WORKDIR /usr/src/app
 
 COPY package.json ./
 
